@@ -1,6 +1,5 @@
 # Download
-* Download from [Release](https://github.com/N28888/FtcRobotController-10.2/releases/tag/Release) to download 
-or
+* Download from [Release](https://github.com/N28888/FtcRobotController-10.2/releases/tag/Release) to download
 * Click download below to download packages
 [Download](https://github.com/N28888/FtcRobotController-10.2/releases/download/Release/FtcRobotController-10.2.zip)
 
