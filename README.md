@@ -1,8 +1,10 @@
 # Download
-* Download from [![Beta version](https://img.shields.io/github/v/release/N28888/FtcRobotController-10.2?color=blue&label=beta)][1]
-* [Click here](https://github.com/N28888/FtcRobotController-10.2/releases/download/Release/FtcRobotController-10.2.zip) to download packages
+[![Beta version](https://img.shields.io/github/v/release/swift-project/pilotclient?color=blue&label=beta)][1]
+[![Alpha version](https://img.shields.io/github/v/release/swift-project/pilotclient?include_prereleases&label=alpha)][2]
 
 [1]: https://github.com/N28888/FtcRobotController-10.2/releases/tag/Release
+[2]: https://github.com/N28888/FtcRobotController-10.2/releases
+
 
 
 ## NOTICE
