@@ -2,6 +2,11 @@
 * Download from [Release](https://github.com/N28888/FtcRobotController-10.2/releases/tag/Release)
 * [Click here](https://github.com/N28888/FtcRobotController-10.2/releases/download/Release/FtcRobotController-10.2.zip) to download packages
 
+[![Beta version](https://img.shields.io/github/v/release/swift-project/pilotclient?color=blue&label=beta)][1]
+
+[1]: https://github.com/N28888/FtcRobotController-10.2/releases/tag/Release
+
+
 ## NOTICE
 
 This repository contains the public FTC SDK for the INTO THE DEEP (2024-2025) competition season.
