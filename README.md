@@ -22,7 +22,7 @@ To program your robot in Blocks or OnBot Java, you do not need Android Studio.
 
 # Release Information
 
-## Version 0.10.2 (20250404-1105)
+## Version 0.11.2 (20250404-1105)
 
 ### Enhancements
 * Make [improvement](https://github.com/N28888/FtcRobotController-10.2/commit/002903a0340e29b5727a921d89cf1da1b4296fdf) on holding the forearm.
@@ -31,5 +31,14 @@ To program your robot in Blocks or OnBot Java, you do not need Android Studio.
 
 * The [forearm holding function](https://github.com/N28888/FtcRobotController-10.2?tab=readme-ov-file#version-0102-20250404-1105) is only effective within the specified angle range.
 * Driving feature on [TankDrive2](https://github.com/N28888/FtcRobotController-10.2/blob/main/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TankDrive2.java) still need to modify.
+
+## Version 0.10.2 (20250404-1050)
+
+### Enhancements
+* Make [improvement](https://github.com/N28888/FtcRobotController-10.2/commit/002903a0340e29b5727a921d89cf1da1b4296fdf) on holding the forearm.
+
+### Known Issues
+
+* The [forearm holding function](https://github.com/N28888/FtcRobotController-10.2?tab=readme-ov-file#version-0102-20250404-1105) is only effective within the specified angle range.
 
 # Original [Readme](https://github.com/FIRST-Tech-Challenge/FtcRobotController/blob/master/README.md)
