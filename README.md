@@ -25,7 +25,7 @@ To program your robot in Blocks or OnBot Java, you do not need Android Studio.
 ## Version 0.11.3 (20250404-1303)
 
 ### Enhancements
-* Make improve and [change](https://github.com/N28888/FtcRobotController-10.2/commit/ece2041396adb3289720bd0c20c61c80561df717) the logic of driving.
+* Make improve and [change](https://github.com/N28888/FtcRobotController-10.2/commit/ece2041396adb3289720bd0c20c61c80561df717) the logic of one-joystick driving.
 
 ### Known Issues
 
