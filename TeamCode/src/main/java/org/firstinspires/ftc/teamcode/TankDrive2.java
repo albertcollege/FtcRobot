@@ -33,7 +33,7 @@ public class TankDrive2 extends OpMode {
 
 
         // --- Top Motor Control ---
-        double topPower = 0.1; // Default power is 0 (stopped)
+        double topPower = 0.1; // Default power is 0.1
 
         if (gamepad1.dpad_up) {
             topPower = 0.6;
