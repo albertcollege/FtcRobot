@@ -22,6 +22,16 @@ To program your robot in Blocks or OnBot Java, you do not need Android Studio.
 
 # Release Information
 
+## Version 0.11.3 (20250404-1303)
+
+### Enhancements
+* Make improve and [change](https://github.com/N28888/FtcRobotController-10.2/commit/ece2041396adb3289720bd0c20c61c80561df717) the logic of driving.
+
+### Known Issues
+
+* The [forearm holding function](https://github.com/N28888/FtcRobotController-10.2?tab=readme-ov-file#version-0102-20250404-1105) is only effective within the specified angle range.
+* Driving feature on [TankDrive2](https://github.com/N28888/FtcRobotController-10.2/blob/main/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TankDrive2.java) still need to modify.
+
 ## Version 0.11.2 (20250404-1105)
 
 ### Enhancements
