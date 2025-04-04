@@ -27,11 +27,14 @@ public class TankDrive2 extends OpMode {
         double leftPower = drive + turn;
         double rightPower = drive - turn;
 
+        double max = Math.max (Math. abs(leftPower), Math.abs(rightPower));
+        if (max > 10){
+            leftPower = leftPower / max;
+            rightPower = rightPower / max;
+        }
+
         leftMotor.setPower(leftPower);
         rightMotor.setPower(rightPower);
-
-        double max = Math.max (Math. abs(leftPower), Math.abs(rightPower));
-
 
         // --- Top Motor Control ---
         double topPower = 0.1; // Default power is 0.1
