@@ -1,8 +1,9 @@
 package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
+import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
-
+@TeleOp(name = "TankDrive2", group = "TeleOp2")
 public class TankDrive2 extends OpMode {
 
     private DcMotor leftMotor;
@@ -27,12 +28,12 @@ public class TankDrive2 extends OpMode {
         leftMotor.setPower(power);
         rightMotor.setPower(power);
 
-        leftMotor.setPower(turn);
-        rightMotor.setPower(-turn);
+        leftMotor.setPower(-turn);
+        rightMotor.setPower(turn);
 
 
         // --- Top Motor Control ---
-        double topPower = 0.0; // Default power is 0 (stopped)
+        double topPower = 0.1; // Default power is 0 (stopped)
 
         if (gamepad1.dpad_up) {
             topPower = 0.6;
