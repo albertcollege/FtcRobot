@@ -29,7 +29,7 @@ public class TankDrive extends OpMode {
         rightMotor.setPower(rightPower);
 
         // --- Top Motor Control ---
-        double topPower = 0.1; // Default power is 0 (stopped)
+        double topPower = 0.1; // Default power is 0.1
 
         if (gamepad1.dpad_up) {
             // If D-pad Up is pressed, set positive power (e.g., move up)
