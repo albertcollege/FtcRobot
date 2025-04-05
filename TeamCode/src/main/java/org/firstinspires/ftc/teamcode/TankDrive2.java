@@ -3,12 +3,17 @@ package org.firstinspires.ftc.teamcode;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.hardware.DcMotorSimple;
+import com.qualcomm.robotcore.hardware.Servo;
+
 @TeleOp(name = "TankDrive2", group = "TeleOp2")
 public class TankDrive2 extends OpMode {
 
     private DcMotor leftMotor;
     private DcMotor rightMotor;
     private DcMotor topMotor;
+    private Servo frontServo;
+    private Servo rotateServo;
 
 
     @Override
@@ -16,13 +21,17 @@ public class TankDrive2 extends OpMode {
         leftMotor = hardwareMap.get(DcMotor.class, "left");
         rightMotor = hardwareMap.get(DcMotor.class, "right");
         topMotor = hardwareMap.get(DcMotor.class, "top");
+        frontServo = hardwareMap.get(Servo.class,"front");
+        rotateServo = hardwareMap.get(Servo.class,"rotate");
+
+        rightMotor.setDirection(DcMotorSimple.Direction.REVERSE);
     }
 
     @Override
     public void loop() {
         // --- Drive Motors ---
         double drive = -gamepad1.left_stick_y;
-        double turn = -gamepad1.left_stick_x;
+        double turn = gamepad1.left_stick_x;
 
         double leftPower = drive + turn;
         double rightPower = drive - turn;
@@ -48,6 +57,35 @@ public class TankDrive2 extends OpMode {
 
         // Actually command the top motor
         topMotor.setPower(topPower);
+
+        // Wheel Servo
+
+        double frontPower = 0;
+
+        if (gamepad1.left_bumper){
+            frontPower = 0;
+            frontServo.setPosition(frontPower);
+        }
+        else if(gamepad1.right_bumper){
+            frontPower = 1;
+            frontServo.setPosition(frontPower);
+        }
+
+        // Rotate Servo
+
+        double rotatePower = 0.5;
+
+        if(gamepad1.x){
+//            rotatePower = 0.0;
+            rotateServo.setPosition(0.81);
+        } else if (gamepad1.y) {
+//            rotatePower = 0.5;
+            rotateServo.setPosition(0.5);
+        } else if (gamepad1.b) {
+            rotateServo.setPosition(0.17);
+
+
+        }
 
         // --- Telemetry (Optional but Recommended) ---
         telemetry.addData("Left Stick Y", gamepad1.left_stick_y);
