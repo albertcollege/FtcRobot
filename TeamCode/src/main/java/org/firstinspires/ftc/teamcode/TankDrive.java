@@ -38,7 +38,7 @@ public class TankDrive extends OpMode {
             // Else, if D-pad Down is pressed, set negative power (e.g., move down)
             topPower = -0.6; // Use a value between -1.0 and 0.0
         }
-        // If neither is pressed, topPower remains 0.0 as set initially
+        // If neither is pressed, topPower remains 0.1 as set initially
 
         // Actually command the top motor
         topMotor.setPower(topPower);
