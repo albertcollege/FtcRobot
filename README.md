@@ -20,7 +20,21 @@ To use this [Android Studio](https://developer.android.com/studio) project, you 
 
 To program your robot in Blocks or OnBot Java, you do not need Android Studio.
 
-# Release Information
+# Release Information - Pre-release
+
+## Version 0.11.4 (250404-2022)
+
+### Enhancements
+* Add Servo Functions
+
+### Known Issues
+
+* The [forearm holding function](https://github.com/N28888/FtcRobotController-10.2?tab=readme-ov-file#version-0102-20250404-1105) is only effective within the specified angle range.
+
+### Bug Fixed
+
+* Drive motor direction fixed.
+
 
 ## Version 0.11.3 (250404-1303)
 
@@ -41,6 +55,17 @@ To program your robot in Blocks or OnBot Java, you do not need Android Studio.
 
 * The [forearm holding function](https://github.com/N28888/FtcRobotController-10.2?tab=readme-ov-file#version-0102-20250404-1105) is only effective within the specified angle range.
 * Driving feature on [TankDrive2](https://github.com/N28888/FtcRobotController-10.2/blob/main/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TankDrive2.java) still need to modify.
+
+# Release Information
+
+## Version 0.10.3 (250404-2025)
+
+### Known Issues
+
+* The [forearm holding function](https://github.com/N28888/FtcRobotController-10.2?tab=readme-ov-file#version-0102-20250404-1105) is only effective within the specified angle range.
+
+### Bug Fixed
+* Drive motor direction fixed.
 
 ## Version 0.10.2 (250404-1050)
 
