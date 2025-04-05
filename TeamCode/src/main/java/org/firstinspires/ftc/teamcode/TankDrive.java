@@ -26,7 +26,7 @@ public class TankDrive extends OpMode {
         double rightPower = -gamepad1.right_stick_y;
 
         leftMotor.setPower(leftPower);
-        rightMotor.setPower(rightPower);
+        rightMotor.setPower(-rightPower);
 
         // --- Top Motor Control ---
         double topPower = 0.1; // Default power is 0.1
