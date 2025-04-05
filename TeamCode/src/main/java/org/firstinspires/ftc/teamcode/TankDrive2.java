@@ -53,7 +53,7 @@ public class TankDrive2 extends OpMode {
         } else if (gamepad1.dpad_down) {
             topPower = -0.4;
         }
-        // If neither is pressed, topPower remains 0.0 as set initially
+        // If neither is pressed, topPower remains 0.1 as set initially
 
         // Actually command the top motor
         topMotor.setPower(topPower);
@@ -76,15 +76,11 @@ public class TankDrive2 extends OpMode {
         double rotatePower = 0.5;
 
         if(gamepad1.x){
-//            rotatePower = 0.0;
             rotateServo.setPosition(0.81);
         } else if (gamepad1.y) {
-//            rotatePower = 0.5;
             rotateServo.setPosition(0.5);
         } else if (gamepad1.b) {
             rotateServo.setPosition(0.17);
-
-
         }
 
         // --- Telemetry (Optional but Recommended) ---
@@ -97,4 +93,3 @@ public class TankDrive2 extends OpMode {
         telemetry.update();
     }
 }
-
