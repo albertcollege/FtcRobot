@@ -1,6 +1,6 @@
 # Download
-[![Beta version](https://img.shields.io/github/v/release/N28888/FtcRobotController-10.2?color=blue&label=beta)][1]
-[![Alpha version](https://img.shields.io/github/v/release/N28888/FtcRobotController-10.2?include_prereleases&label=alpha)][2]
+[![Beta version](https://img.shields.io/github/v/release/albertcollege/FtcRobot?color=blue&label=beta)][1]
+[![Alpha version](https://img.shields.io/github/v/release/albertcollege/FtcRobot?include_prereleases&label=alpha)][2]
 
 [1]: https://github.com/albertcollege/FtcRobot/releases/latest
 [2]: https://github.com/albertcollege/FtcRobot/releases/
